@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'fire_up'
-  s.version = '0.1'
+  s.version = '0.1.1'
   s.author = 'Chris Powers'
   s.date = "2010-03-27"
   s.homepage = 'http://github.com/chrisjpowers/fire_up'
@@ -9,6 +9,7 @@ Gem::Specification.new do |s|
   s.files = ['README.rdoc', 'CHANGELOG.rdoc', 'LICENSE', 'lib/fire_up.rb']
   s.require_paths = ["lib"]
   s.bindir = 'bin'
+  s.executables << 'fire_up'
   s.has_rdoc = true
   s.add_dependency('iterm_window', '>= 0.3.3')
 end
