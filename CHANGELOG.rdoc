@@ -1,0 +1,7 @@
+= FireUp CHANGELOG
+
+== Version 0.1
+ * Initial Implementation
+ * Automation support for iTerm
+ * Assumes use of TextMate
+ * Assumes use of Passenger

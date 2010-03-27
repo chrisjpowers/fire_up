@@ -1,0 +1,13 @@
+= FireUp
+
+<em>Developed by Chris Powers, March 27, 2010</em>
+
+== What Does It Do?
+
+The FireUp gem gives you a handy <tt>fire_up</tt> command that will fire up all the iTerm tabs you need for your project, and opens the project up in TextMate. FireUp uses a CLI dialog to get your project preferences and stores them in <tt>~/.fire_up_config</tt>.
+
+== What Software Is Supported?
+
+Right now support is admittedly narrow, it only supports my personal workflow of using iTerm for a terminal and TextMate for my editor, and it also assumes that projects are already running on Passenger.
+
+I would like to eventually add support for using Terminal, other text editors like vim and emacs, and add the ability to fire up Mongrel / Thin / Unicorn servers rather than just Passenger.

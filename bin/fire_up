@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+require 'rubygems'
+require 'fire_up'
+
+FireUp.new(ARGV.shift).open_window
